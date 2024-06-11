@@ -15,11 +15,11 @@ class Lungs extends StatefulWidget {
 }
 
 class _LungsState extends State<Lungs> {
-  /// For Android Platform .glb format and for IOS .USDZ
+ 
   final String modelURL = io.Platform.isAndroid
       ? "https://firebasestorage.googleapis.com/v0/b/super-ar-be6d5.appspot.com/o/lungs%2Fgenerate_a_human_anatomy_lungs%2C_which_shows_all_the_detailed__0328075812_refine.glb?alt=media&token=4b7291ee-e67d-45e3-a80e-dec759ea4b4f"
-
-      : "https://firebasestorage.googleapis.com/v0/b/livvinyl-health-connector.appspot.com/o/Astronaut.usdz?alt=media&token=833344f6-7f17-4f21-aa5c-6f9fc5313928";
+      
+     : "https://firebasestorage.googleapis.com/v0/b/livvinyl-health-connector.appspot.com/o/Astronaut.usdz?alt=media&token=833344f6-7f17-4f21-aa5c-6f9fc5313928";
 
   @override
   void initState() {
